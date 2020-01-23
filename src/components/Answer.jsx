@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import components
 
 
-class Question extends Component {
+class Answer extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -12,10 +12,10 @@ class Question extends Component {
   render() {
     return (
       <div>
-        <button>{this.props.q}</button>
+        <button>{this.props.a}</button>
       </div>
     );
   }
 }
 
-export default Question;
+export default Answer;
